@@ -10,7 +10,7 @@ const generateTempalte = todo => {
 addForm.addEventListener('submit', e => {
     e.preventDefault();
     const todo = addForm.add.value.trim(); 
-    if (todo.length) { // do not store spaces 
+    if (todo.length) { 
         generateTempalte(todo);
         addForm.reset();
     }
