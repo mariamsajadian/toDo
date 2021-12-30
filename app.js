@@ -1,5 +1,4 @@
 const addForm = document.querySelector(".add");
-
 const list = document.querySelector('.todos');
 const searchs = document.querySelector('.search input')
 const generateTempalte = todo => {
